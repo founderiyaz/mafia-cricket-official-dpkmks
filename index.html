@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 
-<!-- Meta Pixel Code -->
+<!-- Meta Pixel Code (UNCHANGED) -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -13,151 +12,188 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1034558118621719');
+fbq('init', '2413326205799334');
 fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1034558118621719&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-  
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Join Telegram Channel</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #e0f7fa, #e1bee7);
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .elementor img {
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    height: auto;
-    max-width: 100%;
-    border-radius: 90px;
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Join Telegram Community</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at center, #022c22, #010b07);
+  min-height: 100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:1rem;
 }
-    .card {
-      backdrop-filter: blur(12px);
-      background: rgba(255, 255, 255, 0.7);
-      border-radius: 1rem;
-      padding: 2rem;
-      max-width: 400px;
-      width: 100%;
-      text-align: center;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-    }
-    .btn-telegram {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      padding: 0.8rem 1.2rem;
-      border-radius: 0.75rem;
-      font-weight: bold;
-      color: white;
-      background: linear-gradient(90deg, #0088cc, #00bcd4);
-      transition: 0.3s;
-      width: 100%;
-    }
-    .btn-telegram:hover {
-      background: linear-gradient(90deg, #00bcd4, #0088cc);
-      transform: translateY(-2px);
-    }
-    .feature {
-      display: flex;
-      align-items: flex-start;
-      gap: 6px;
-      font-size: 0.95rem;
-    }
-  </style>
+
+/* BACKGROUND BLUR LOGO EFFECT */
+.bg-blur{
+  position:absolute;
+  width:500px;
+  height:500px;
+  background:url('https://telegram-ads.riyazshaikh.com/wp-content/uploads/2025/07/badshah-ff.jpg') center/cover;
+  opacity:0.05;
+  filter:blur(30px);
+  z-index:0;
+}
+
+/* MAIN CARD */
+.card{
+  position:relative;
+  z-index:1;
+  background:linear-gradient(180deg,#064e3b,#022c22);
+  border-radius:22px;
+  padding:2rem;
+  max-width:420px;
+  width:100%;
+  text-align:center;
+  box-shadow:0 0 40px rgba(0,255,150,0.2);
+  border:1px solid rgba(0,255,150,0.2);
+}
+
+/* PROFILE GLOW */
+.profile{
+  width:110px;
+  height:110px;
+  margin:auto;
+  border-radius:50%;
+  padding:4px;
+  background:radial-gradient(circle,#00ffae,#065f46);
+  box-shadow:0 0 20px #00ffae;
+}
+
+.profile img{
+  width:100%;
+  height:100%;
+  border-radius:50%;
+}
+
+/* TITLE */
+.title{
+  font-size:20px;
+  font-weight:800;
+  color:#d1fae5;
+  margin-top:12px;
+}
+
+/* SUB */
+.sub{
+  font-size:13px;
+  color:#a7f3d0;
+}
+
+/* STATS */
+.stats{
+  display:flex;
+  gap:10px;
+  margin:16px 0;
+}
+
+.stat{
+  flex:1;
+  border:1px solid rgba(0,255,150,0.4);
+  border-radius:12px;
+  padding:10px;
+  color:#d1fae5;
+}
+
+.stat b{
+  font-size:18px;
+}
+
+/* ICON ROW */
+.icons{
+  display:flex;
+  justify-content:space-around;
+  margin-top:10px;
+  color:#a7f3d0;
+  font-size:12px;
+}
+
+/* CTA */
+.btn-telegram{
+  display:flex;
+  opacity:0.01;
+  transform:translateY(12px);
+  transition:0.6s;
+
+  align-items:center;
+  justify-content:center;
+  padding:16px;
+  border-radius:14px;
+  font-weight:700;
+  color:black;
+  background:linear-gradient(90deg,#d9f99d,#84cc16);
+  width:100%;
+  margin-top:20px;
+  box-shadow:0 0 20px #84cc16;
+}
+</style>
+
 </head>
+
 <body>
 
-  <div class="card">
-    <!-- Profile Image -->
-    <div class="w-32 h-32 mx-auto mb-4 ">
-      <img src="https://telegram-ads.riyazshaikh.com/wp-content/uploads/2025/09/rochit.jpg" alt="Profile" class="w-full h-full rounded-full object-cover shadow-lg border-4 border-white rounded-xxl">
-    </div>
+<div class="bg-blur"></div>
 
-    <!-- Heading -->
-    <h1 class="text-xl font-extrabold text-gray-800 mb-1">
-      𝙍𝙊𝘾𝙃𝙄𝙏 𝙎𝙄𝙉𝙂𝙃 𝙎𝙏𝙊𝘾𝙆𝙎 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 💸🏆
-    </h1>
+<div class="card">
 
-    <!-- Experience -->
-    <p class="text-red-600 font-semibold mb-4">📊 7 years experience 📊</p>
-
-    <!-- CTA Button -->
-    <a href="https://t.me/+tuZIXeyVe_NiMzJl" target="_blank" class="btn-telegram mb-6">
-
-      
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-        <path d="M16 8a8 8 0 1 1-16 0 8 8 0 0 1 16 0zM6.79 10.89l-.27 3.67c.39 0 .56-.17.77-.38l1.85-1.76 3.84 2.8c.7.39 1.19.19 1.36-.65l2.47-11.59c.22-.98-.35-1.37-1.05-1.14L1.13 6.24c-.95.37-.93.9-.17 1.14l3.57 1.11 8.3-5.23c.39-.26.74-.12.45.14L6.79 10.89z"/>
-      </svg>
-      JOIN TELEGRAM 💬
-    </a>
-
-    <!-- Features -->
-    <p class="text-red-600 font-bold mb-4">💎 DAILY PROFIT GURANTEE 💎</p>
-    <div class="text-left space-y-3 text-gray-800 mb-6">
-      <div class="feature">📊 <span><b>Live Daily Trades</b> – From my portfolio to yours!</span></div>
-      <div class="feature">🔥 <span><b>Exclusive Signals</b> – Get the same trades I take!</span></div>
-      <div class="feature">💯 <span><b>High Accuracy</b> – Consistent proven strategy!</span></div>
-      <div class="feature">💡 <span><b>Real-Time Updates</b> – Instant market alerts!</span></div>
-    </div>
-
-    <!-- Hindi Section -->
-    <h2 class="text-lg font-bold text-gray-800 mb-2">क्या आप ट्रेडिंग से पैसे कमाना चाहते हैं?</h2>
-    <p class="text-red-600 font-semibold">
-      अगर हां तो दिए गए टेलीग्राम बटन पर दबाएं !
-    </p>
+  <!-- PROFILE -->
+  <div class="profile">
+    <img src="https://telegram-ads.riyazshaikh.com/wp-content/uploads/2025/07/badshah-ff.jpg">
   </div>
+
+  <!-- TITLE -->
+  <div class="title">♣ BADSHAH BROKING ♣ ❤️</div>
+  <div class="sub">Real-Time Signals • Live Market • Insights</div>
+
+  <!-- MEMBERS -->
+  <div class="text-green-300 text-sm mt-2">44K+ Active Members</div>
+
+  <!-- STATS -->
+  <div class="stats">
+    <div class="stat"><b>26,873</b><br>Signals</div>
+    <div class="stat"><b>99%</b><br>Accuracy</div>
+    <div class="stat"><b>4.9★</b><br>Rating</div>
+  </div>
+
+  <!-- ICONS -->
+  <div class="icons">
+    <div>✔ Verified</div>
+    <div>🔒 Secure</div>
+    <div>📈 Profitable</div>
+    <div>⭐ Top Rated</div>
+  </div>
+
+  <!-- CTA -->
+  <a id="tgBtn"
+     href="https://t.me/+v3u36HwAz2E3OTk9"
+     target="_blank"
+     class="btn-telegram">
+     🚀 Join Free Telegram Channel
+  </a>
+
+  <!-- FOOTER -->
+  <div class="text-xs text-green-200 mt-4">
+    © 2026 BADSHAH BROKING • Market Education
+  </div>
+
+</div>
+
+<script>
+setTimeout(()=>{
+  const btn=document.getElementById("tgBtn");
+  btn.style.opacity="1";
+  btn.style.transform="translateY(0)";
+},2000);
+</script>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
